@@ -34,8 +34,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['mbci-django-todo-app-f73eea4cd339.herokuapp.com']
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
