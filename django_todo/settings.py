@@ -28,9 +28,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 # os.environ.get("SECRET_KEY")
 
-SECRET_KEY = "x0cj&b2#wihr_r7u%&ie5vlf$n+@x^ku@^9e0$tzos)yx#a(lb"
+SECRET_KEY = 'x0cj&b2#wihr_r7u%&ie5vlf$n+@x^ku@^9e0$tzos)yx#a(lb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+ALLOWED_HOSTS = ['mbci-django-todo-app-f73eea4cd339.herokuapp.com']
 
 ALLOWED_HOSTS = []
 
