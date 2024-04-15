@@ -37,11 +37,12 @@ DEBUG = development
 
 # ALLOWED_HOSTS = ['mbci-django-todo-app-f73eea4cd339.herokuapp.com']
 
-if development:
-    ALLOWED_HOSTS = ['localhost']
-else:
-    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+# if development:
+#     ALLOWED_HOSTS = ['localhost']
+# else:
+#     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 # Application definition
 
